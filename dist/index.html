@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web GPU 001</title>
+    <title>Web GPU</title>
   </head>
+  <style>
+    html, body {
+      margin: 0;      
+      height: 100%;    
+    }
+    canvas {
+      display: block;  
+      width: 100%;    
+      height: 100%;
+    }
+  </style>
   <body>
-    <h1>Check WebGPU:</h1>
-    <h2 id="id-gpu-check"></h2>
+    <canvas id="canvas-webgpu" ></canvas>
     <script src="main.bundle.js"></script>
   </body>
 </html>
